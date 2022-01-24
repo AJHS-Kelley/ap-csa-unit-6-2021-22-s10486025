@@ -26,6 +26,7 @@ public class ArrayIntro {
         for(int i =0; i < 10; i++){
             String currentString = strArr[i];
             int stringLength = currentString,length();
+            if(stringLength)
 
         }
 
