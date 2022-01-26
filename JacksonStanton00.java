@@ -1,4 +1,4 @@
-// ty Whitecotten, Array Practice, v0.3, 1/24/22
+// ty Whitecotten, Array Practice, v0.4, 1/24/22
 
 public class JacksonStanton00 {
 
@@ -20,7 +20,19 @@ public class JacksonStanton00 {
 
         for (int i =0; i < carArr.length; i++) {
             //System.out.println(i);
-            System.out.println(carArr[i]);
+            //System.out.println(carArr[i]);
+
+            
+            if(carArr[i].length() % 2 == 0) {
+                System.out.println(carArr[i]);
+                System.out.println("This string has an even length");
+
+
+            } else {
+                System.out.println(carArr[i]);
+                System.out.println("This string has an even length");
+
+            }
 
         }
         
