@@ -1,4 +1,4 @@
-// ty Whitecotten, Array Practice, v0.4, 1/24/22
+// ty Whitecotten, Array Practice, v0.5, 1/24/22
 
 public class JacksonStanton00 {
 
@@ -51,6 +51,34 @@ public class JacksonStanton00 {
             System.out.println(eachElement);
 
         }
+        
+        int[][] twoDIntArr = {{4, -1, 2, 5},{8, 9, 17, -5}};
+
+        System.out.println(twoDIntArr[0][2]);
+        System.out.println(twoDIntArr[1][3]);
+
+        for(int i = 0; i < twoDIntArr.length; ++i  ) {
+            for(int j = 0; j < twoDIntArr[i].length; ++j) {
+                System.out.println(twoDIntArr[i][j]);
+
+            }
+
+        }
+
+
+
+
+        
+
+
 
     }
-}
+
+
+
+
+
+
+}  
+
+
